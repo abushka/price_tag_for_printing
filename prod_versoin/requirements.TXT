@@ -1,4 +1,0 @@
-flask==2.2.3
-flask_cors==3.0.10
-qrcode==7.4.2
-waitress==2.1.2
