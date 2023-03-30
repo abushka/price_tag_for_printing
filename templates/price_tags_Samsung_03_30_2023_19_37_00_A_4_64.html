@@ -5,18 +5,237 @@
                 <meta charset="UTF-8">
                 <title>Ценники</title>
                 <link rel="stylesheet" href="styles.css">
+                <style type="text/css">
+                    
+        .tag {
+    border: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+    width: 315px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    }
+
+    .category {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .title {
+        font-size: 40px;
+        font-weight: 500;
+        margin: 10px;
+    }
+
+    .description {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .installment_plan {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .installment_plan_line {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: line-through;
+    }
+
+    .monthly_payment {
+        font-size: 36px;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .months {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .barcode {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .footer {
+        position: relative;
+        height: 130px;
+    }
+
+    .footer_img {
+        position: relative;
+        display: inline-block;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .footer_discount_img {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .total_amount_24 {
+        position: relative;
+        display: inline-block;
+        background-color: rgb(218, 218, 218);
+        /* top: -14px; */
+        width: 30%;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    .total_amount_24_img {
+        padding: 10px 5px;
+        position: relative;
+        display: inline-block;
+        background-color: rgb(218, 218, 218);
+        top: -5px;
+        width: 30%;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .total_amount_24_text {
+        height: 30px;
+        padding: 6px 3px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .total_amount_24_text_uz {
+        height: 30px;
+        line-height: 30px;
+        padding: 6px 3px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .total_amount_img_text_uz {
+        height: 22px;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: left;
+        /* margin: 6px 4px 4px 10px; */
+    }
+
+
+    .total_amount_24_percentage {
+        position: relative;
+        top: -10px;
+        font-size: 43px;
+        font-weight: 700;
+    }
+
+    .total_amount_24_price {
+        position: relative;
+        top: -10px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .total_amount_img_line_through {
+        font-size: 11px;
+        margin-top: 5px;
+        text-decoration: line-through;
+        text-align: left;
+        /* margin: 3px 4px 4px 10px; */
+    }
+
+    .total_amount_img_none_line_uz {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .total_amount_img_date_uz {
+        font-size: 11px;
+        margin-top: 5px;
+        text-align: left;
+    }
+
+    .total_amount_img_date_uz_span {
+        font-size: 11px;
+        font-weight: 700;
+        margin-top: 5px;
+        text-align: left;
+        line-height: 10px;
+    }
+
+
+    .total_amount_12 {
+        position: relative;
+        display: inline-block;
+        background-color: rgb(218, 218, 218);
+        width: 30%;
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    .total_amount_12_text {
+        height: 26px;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px 3px 6px 3px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .total_amount_12_percentage {
+        position: relative;
+        top: -10px;
+        font-size: 43px;
+        font-weight: 700;
+    }
+
+    .total_amount_12_price {
+        position: relative;
+        top: -10px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .dash{
+        width: 100%;
+        height: 6px;
+        background-color: gray;
+        opacity: 0.3;
+    }
+
+    .date {
+        width: 60%;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        font-size: 11px;
+        text-align: left;
+    }
+
+    
+                </style>
             </head>
             <body>
                 <div id="price-tags">
                 <div class="tag">
                     <div class="category">Смартфон</div>
                     <div class="title">SAMSUNG</div>
-                    <div class="description">Galaxy A53 4/64</div>
+                    <div class="description">A 4/64</div>
 
                     <div class="dash"></div>
 
                     <div class="installment_plan">В рассрочку:</div>
-                    <div class="monthly_payment">200 000 сум</div>
+                    <div class="monthly_payment">100 000 сум</div>
                     <div class="months">На 24 месяца</div>
 
                     <div class="dash"></div>
@@ -26,20 +245,20 @@
 
                         <div class="total_amount_24">
                             <div class="total_amount_24_text">Полная сумма</div>
-                            <div class="total_amount_24_percentage">40%</div>
-                            <div class="total_amount_24_price">2 880 000 сум</div>
+                            <div class="total_amount_24_percentage">30%</div>
+                            <div class="total_amount_24_price">3 500 000 сум</div>
                         </div>
                         
                         <div class="total_amount_12">
                             <div class="total_amount_12_text">0-0-12</div>
                              <div class="total_amount_12_percentage">20%</div>
-                            <div class="total_amount_12_price">3 840 000</div>
+                            <div class="total_amount_12_price">4 000 000</div>
                         </div>
 
                     </div>
 
                     <div class="date">
-                        Дата: 01/03/2023-01/04/2023
+                        Дата: 30.03.2022
                     </div>
 
                     <div class="dash"></div>
@@ -47,14 +266,14 @@
                 </div>
 
                 <div class="tag">
-                    <div class="category">Smartfon</div>
+                    <div class="category">Смартфон</div>
                     <div class="title">SAMSUNG</div>
-                    <div class="description">Galaxy A53 4/64</div>
+                    <div class="description">A 4/64</div>
 
                     <div class="dash"></div>
 
                     <div class="installment_plan">Muddatli to'lovga:</div>
-                    <div class="monthly_payment">200 000 so'm</div>
+                    <div class="monthly_payment">100 000 so'm</div>
                     <div class="months">24 oyga</div>
 
                     <div class="dash"></div>
@@ -64,20 +283,20 @@
                    
                         <div class="total_amount_24">
                             <div class="total_amount_24_text_uz">To'liq to'lov</div>
-                            <div class="total_amount_24_percentage">40%</div>
-                            <div class="total_amount_24_price">2 880 000 so'm</div>
+                            <div class="total_amount_24_percentage">30%</div>
+                            <div class="total_amount_24_price">3 500 000 so'm</div>
                         </div>
                         
                         <div class="total_amount_12">
                             <div class="total_amount_12_text">0-0-12</div>
                              <div class="total_amount_12_percentage">20%</div>
-                            <div class="total_amount_12_price">3 840 000</div>
+                            <div class="total_amount_12_price">4 000 000</div>
                         </div>
 
                     </div>
 
                     <div class="date">
-                        Sana: 01/03/2023-01/04/2023
+                        Sana: 30.03.2022
                     </div>
 
                     <div class="dash"></div>

@@ -34,6 +34,13 @@
     font-weight: 600;
 }
 
+.installment_plan_line {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
 .monthly_payment {
     font-size: 36px;
     font-weight: 600;
@@ -64,6 +71,13 @@
     height: 100px;
 }
 
+.footer_discount_img {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
 .total_amount_24 {
     position: relative;
     display: inline-block;
@@ -71,6 +85,17 @@
     /* top: -14px; */
     width: 30%;
     height: 100px;
+    margin-bottom: 5px;
+}
+
+.total_amount_24_img {
+    padding: 10px 5px;
+    position: relative;
+    display: inline-block;
+    background-color: rgb(218, 218, 218);
+    top: -5px;
+    width: 30%;
+    height: 80px;
     margin-bottom: 5px;
 }
 
@@ -89,6 +114,14 @@
     font-weight: 600;
 }
 
+.total_amount_img_text_uz {
+    /* height: 30px; */
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    /* margin: 6px 4px 4px 10px; */
+}
+
 
 .total_amount_24_percentage {
     position: relative;
@@ -103,6 +136,35 @@
     font-size: 11px;
     font-weight: 700;
 }
+
+.total_amount_img_line_through {
+    font-size: 11px;
+    margin-top: 5px;
+    text-decoration: line-through;
+    text-align: left;
+    /* margin: 3px 4px 4px 10px; */
+}
+
+.total_amount_img_none_line_uz {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.total_amount_img_date_uz {
+    font-size: 11px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.total_amount_img_date_uz_span {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: left;
+    line-height: 10px;
+}
+
 
 .total_amount_12 {
     position: relative;
